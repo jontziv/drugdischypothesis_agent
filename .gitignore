@@ -1,0 +1,12 @@
+.env.example
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# Data / vector store
+data/
+

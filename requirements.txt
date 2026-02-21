@@ -1,0 +1,26 @@
+# Core
+streamlit>=1.42.0
+python-dotenv>=1.0.0
+groq>=0.13.0
+
+# Vector DB & Embeddings
+chromadb>=0.6.0
+sentence-transformers>=3.4.0
+
+# Biomedical data APIs
+biopython>=1.84
+requests>=2.32.0
+chembl-webresource-client>=0.10.9
+
+# Cheminformatics
+rdkit>=2024.3.0
+
+# Data handling
+pandas>=2.2.0
+numpy>=1.26.0
+pydantic>=2.10.0
+matplotlib>=3.8.0
+
+# Utilities
+tenacity>=9.0.0
+tqdm>=4.67.0

@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/opt/anaconda3/bin/pip install:*)",
+      "Bash(python -c:*)",
+      "Bash(pip install:*)",
+      "Bash(/Users/jontziv/Downloads/drugdischypothesis_agent/.venv/bin/pip install:*)",
+      "Bash(/Users/jontziv/Downloads/drugdischypothesis_agent/.venv/bin/python:*)"
+    ]
+  }
+}
