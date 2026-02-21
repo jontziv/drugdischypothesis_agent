@@ -97,6 +97,25 @@ The app will open at `http://localhost:8501`.
 3. Adjust sliders for hypothesis count, PubMed/ChEMBL limits
 4. Click **🚀 Run Pipeline**
 
+### Example Input Combinations
+
+Copy any row directly into the sidebar fields:
+
+| # | Disease / Condition | Drug Target / Pathway |
+|---|--------------------|-----------------------|
+| 1 | Alzheimer's disease | BACE1 beta-secretase |
+| 2 | Parkinson's disease | LRRK2 kinase |
+| 3 | Type 2 diabetes | GLP-1 receptor agonism |
+| 4 | Non-small cell lung cancer | EGFR tyrosine kinase |
+| 5 | Breast cancer | HER2 receptor |
+| 6 | Chronic myeloid leukemia | BCR-ABL tyrosine kinase |
+| 7 | Rheumatoid arthritis | JAK1/JAK3 signaling pathway |
+| 8 | Major depressive disorder | serotonin reuptake transporter (SERT) |
+| 9 | HIV/AIDS | HIV-1 reverse transcriptase |
+| 10 | Pulmonary fibrosis | TGF-beta signaling pathway |
+
+> **Tip:** Start with combinations 1–3 — they have the richest PubMed and ChEMBL coverage, so the pipeline runs faster and produces higher-quality hypotheses.
+
 The pipeline will:
 1. Fetch real papers from PubMed and molecules from ChEMBL
 2. Embed and index them into ChromaDB
